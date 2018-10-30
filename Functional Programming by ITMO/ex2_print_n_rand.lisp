@@ -1,0 +1,6 @@
+(defun print-n-randoms (n max-limit)
+    (dotimes (i n)
+        (format t "~r~%" (random max-limit))))
+(print-n-randoms 2 22)
+(print-n-randoms 5 22)
+(print-n-randoms 3 3)
